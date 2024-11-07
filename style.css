@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.dog {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+#dog-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+#dog-info {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+#new-img {
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #6495ed;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#new-img:hover {
+    background-color: #4b7bec;
+}
